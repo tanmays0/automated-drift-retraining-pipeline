@@ -6,9 +6,7 @@
 
 ## GitHub repository
 
-> Add the public repo URL here after push (see README for setup).
-
-`https://github.com/<your-username>/automated-drift-retraining-pipeline`
+https://github.com/tanmays0/automated-drift-retraining-pipeline
 
 ## How to reproduce
 
@@ -23,6 +21,7 @@ python scripts/run_demo.py
 
 | File | Evidence |
 |------|----------|
+| `screenshots/05_github_repo.png` | GitHub repository page |
 | `screenshots/04_prefect_flow_success.png` | Prefect flow completed (drift → retrain → alert) |
 | `screenshots/02_evidently_drift_report.png` | Evidently AI drift report (Wasserstein / dataset drift detected) |
 | `screenshots/01_mlflow_model_registry.png` | MLflow Model Registry — `demand-forecast-model` v1 `@champion` |
