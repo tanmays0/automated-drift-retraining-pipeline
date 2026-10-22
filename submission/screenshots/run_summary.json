@@ -1,0 +1,27 @@
+{
+  "drift": {
+    "drifted": true,
+    "max_wasserstein": 8.745505886586606,
+    "per_column": {
+      "price": 6.090625824882293,
+      "promo": 0.3045,
+      "day_of_week": 0.048500000000000126,
+      "temperature": 7.850706149261435,
+      "store_id": 0.05499999999999994,
+      "units_sold": 8.745505886586606
+    },
+    "report_path": "outputs/drift_reports/drift_report.html",
+    "threshold": 0.1
+  },
+  "train": {
+    "run_id": "2e20ec0d11774c8cbfa9689c0e29da77",
+    "model_uri": "runs:/2e20ec0d11774c8cbfa9689c0e29da77/model",
+    "registered_version": "1",
+    "metrics": {
+      "mae": 3.5203564295760312,
+      "r2": 0.9529164538624942
+    },
+    "model_name": "demand-forecast-model"
+  },
+  "alert_path": "outputs/alerts/alert_20261022T083002Z.txt"
+}

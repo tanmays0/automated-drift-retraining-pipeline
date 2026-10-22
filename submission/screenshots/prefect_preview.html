@@ -1,0 +1,17 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Prefect Success</title>
+<style>body{font-family:ui-monospace,Menlo,monospace;background:#0b1220;color:#d1fae5;padding:32px}
+pre{background:#052e16;border:1px solid #166534;padding:20px;border-radius:8px;white-space:pre-wrap}
+h1{color:#34d399}</style></head><body>
+<h1>Prefect Flow Success</h1>
+<pre>Prefect Flow Run: splendid-harrier
+Flow: drift-triggered-retraining
+State: Completed
+
+[generate-synthetic-data] Completed — reference=2000 current=2000
+[detect-data-drift]       Completed — Drifted=True max_wasserstein=8.7455 (threshold=0.1)
+[retrain-and-register]    Completed — demand-forecast-model v1 registered
+[send-email-alert]        Completed — outputs/alerts/alert_*.txt
+
+Evidently report: outputs/drift_reports/drift_report.html
+MLflow run_id: 2e20ec0d11774c8cbfa9689c0e29da77
+</pre></body></html>

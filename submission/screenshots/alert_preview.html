@@ -1,0 +1,30 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Email Alert</title>
+<style>body{font-family:ui-monospace,Menlo,monospace;background:#0b1220;color:#e8eefc;padding:32px}
+pre{background:#111827;border:1px solid #334155;padding:20px;border-radius:8px;white-space:pre-wrap}
+h1{color:#fbbf24}</style></head><body>
+<h1>Email Alert Notification</h1>
+<pre>From: drift-monitor@pipeline.local
+To: ml-ops@example.com
+Date: 2026-10-22T08:30:02.037909+00:00
+Subject: [ALERT] Data drift detected — retrain triggered
+
+Automated demand-forecasting pipeline alert.
+
+Drift threshold (Wasserstein): 0.1
+Max Wasserstein distance: 8.7455
+Evidently report: outputs/drift_reports/drift_report.html
+
+Per-column Wasserstein scores:
+  - price: 6.0906
+  - promo: 0.3045
+  - day_of_week: 0.0485
+  - temperature: 7.8507
+  - store_id: 0.0550
+  - units_sold: 8.7455
+
+Retrain completed and model registered in MLflow:
+  model_name: demand-forecast-model
+  version: 1
+  run_id: 2e20ec0d11774c8cbfa9689c0e29da77
+  metrics: {'mae': 3.5203564295760312, 'r2': 0.9529164538624942}
+</pre></body></html>
